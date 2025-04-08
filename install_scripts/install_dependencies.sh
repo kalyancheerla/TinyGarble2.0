@@ -16,7 +16,7 @@ else
 	if [[ $VER -gt 15 ]]; then
 		apt-get install -y software-properties-common
 		apt-get update
-		apt-get install -y cmake git build-essential libssl-dev libgmp-dev python 
+		apt-get install -y cmake git build-essential libssl-dev libgmp-dev python-is-python3
 		apt-get install -y libboost-dev
 		apt-get install -y libboost-{chrono,log,program-options,date-time,thread,system,filesystem,regex,test}-dev
 	else
